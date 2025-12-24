@@ -1,22 +1,19 @@
 {
-  "compilerOptions": {
-    "strict": true,
-    "target": "ES2022",
-    "module": "ES2022",
-    "moduleResolution": "Bundler",
-    "lib": [
-      "DOM",
-      "DOM.Iterable",
-      "ESNext"
-    ],
-    "types": [
-      "vite/client"
-    ],
-    "noEmit": true,
-    "skipLibCheck": true,
-    "esModuleInterop": true
-  },
-  "exclude": [
-    "dist"
-  ]
+	"compilerOptions": {
+		"strict": true,
+		"esModuleInterop": true,
+		"module": "ES2022",
+		"noEmit": true,
+		"moduleResolution": "Bundler",
+		"target": "ES2022",
+		"lib": ["DOM", "DOM.Iterable", "ESNext"],
+		"types": ["vite/client"],
+		"skipLibCheck": true,
+		"paths": {
+			"@assets/*": ["./assets/*"],
+			"@src/*": ["./src/*"],
+			"@components/*": ["./components/*"]
+		}
+	},
+	"exclude": ["dist"]
 }

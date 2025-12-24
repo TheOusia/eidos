@@ -5,9 +5,9 @@ import vikeVue from "vike-vue/config";
 // https://vike.dev/config
 
 export default {
-  // https://vike.dev/head-tags
-  title: "My Vike App",
-  description: "Demo showcasing Vike",
-
-  extends: [vikeVue],
+	// https://vike.dev/head-tags
+	title: "ERP",
+	description: "Enterprise ",
+	extends: [vikeVue],
+	passToClient: ["user"],
 } as Config;
