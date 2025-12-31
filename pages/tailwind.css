@@ -88,3 +88,7 @@
 	--md-sys-color-surface-container-high: rgb(234 231 239);
 	--md-sys-color-surface-container-highest: rgb(228 225 233);
 }
+
+html {
+	font-family: "Inter", sans-serif;
+}

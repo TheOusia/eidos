@@ -23,8 +23,6 @@ import "@material/web/textfield/filled-text-field.js";
 import "@material/web/textfield/outlined-text-field.js";
 import { computed, useAttrs } from "vue";
 
-type Variant = "filled" | "outlined";
-
 const props = withDefaults(
 	defineProps<{
 		variant?: Variant;
@@ -87,3 +85,10 @@ const emit = defineEmits([
 	"focus",
 ]);
 </script>
+
+<style>
+md-outlined-text-field.input-wrapper {
+	--md-outlined-field-label-text-padding-bottom: 10px;
+	--md-outlined-field-outline-label-padding: 10px;
+}
+</style>
