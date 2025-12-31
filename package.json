@@ -1,4 +1,9 @@
 {
+	"name": "eidos",
+	"version": "1.0.0",
+	"author": {
+		"name": "Efedua Believe"
+	},
 	"scripts": {
 		"dev": "vike dev",
 		"build": "vike build",
